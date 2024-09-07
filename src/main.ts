@@ -7,8 +7,6 @@ const config: Types.Core.GameConfig = {
   type: Phaser.AUTO,
   width: window.innerWidth,
   height: window.innerHeight,
-  //   width: 600,
-  //   height: 400,
   parent: "game-container",
   scene: [Snow],
   physics: {
